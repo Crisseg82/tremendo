@@ -1,0 +1,50 @@
+.contenedor_padre{
+    background-color: bisque;
+    display: flex;
+}
+
+.caja{
+    height: 150px;
+    width: 150px;
+
+}
+
+.rojo{
+    background-color: red;
+    height: 100px;
+}
+.azul{
+    background-color: blue;
+}
+.rosa{
+    background-color: pink;
+}
+.naranja{
+    background-color: orange;
+}
+.amarillo{
+    background-color: yellow;
+    height: 200px;
+}
+.verde{
+    background-color: green;
+}
+
+/* Ejemplo Header */
+
+.header{
+    background-color: rgb(255, 124, 194);
+    display: flex;
+}
+.logo{
+    display: flex;
+    background-color: rgb(138, 43, 226);
+    text-align: center;
+    padding: 1rem;
+}
+.login{
+    background-color: darkcyan;
+}
+.menu{
+    background-color: chocolate;
+}

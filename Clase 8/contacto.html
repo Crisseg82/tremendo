@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Personajes</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Nosotros</a></li>
+            </ul>
+        </nav>
+        <h1 class="titulo"> Peter Pan</h1>
+    </header>
+
+    <div class="ejemplo">
+        <ul>
+            <li><a href="contacto.html">Ejemplo 1</a></li>
+            <li><a href="contacto.html">Ejemplo 2</a></li>
+            <li><a href="contacto.html">Ejemplo 3</a></li>
+
+        </ul>
+    </div>
+    <section class="contacto">
+        <h2> Contacto </h2>
+
+        <form action="" method="post" class="formulario">
+            <fieldset class="fieldset">
+                <legend class="legend"> Informacion del contacto</legend>
+
+                <div class="form_group">
+
+            <label for="nombre" class="label">Nombre</label>
+            <input type="text" class="input" name="nombre" id="nombre" required>
+       </div>
+       <div class="form_group">
+            <label for="Apellido" class="label">Apellido</label>
+            <input type="text" class="input" name="Apellido" id="Apellido">
+        </div>
+        <div class="form_group">
+            <label for="clave" class="label">Contraseña</label>
+            <input type="password" class="input" name="clave" id="clave">
+        </div>
+            <div class="form_group">
+            <label for="edad" class="label">Edad</label>
+            <input type="number" class="input" name="edad" id="edad" min="18" max="100">
+        </div>
+            <div class="form_group">
+            <label for="mensaje" class="input" class="label">Mensaje</label>
+            <textarea name="" id="mensaje" rows="5" cols="20" minlength="10" maxlength="200"></textarea>
+        </div>
+        <div class="form_group">
+            <input type="url" class="input" name="sitioweb" pattern="https?://.+" title="por favor, ingrese una URL valida">
+        </div>
+        <div class="form_group">
+            <select name="pais" id="">
+                <option value="A"> Argentina</option>
+                <option value="C"> Chile</option>
+                <option value="B"> Bolivia</option>
+            </select>
+        </div>
+
+
+    <p for="colores"> Selecciona tu color</p>
+    
+    <input type="Radio" name="color" value="rojo">
+     <label for="rojo"> rojo</label>
+     <input type="Radio" name="color" value="azul">
+     <label for="azul"> Azul</label>
+     <input type="Radio" name="color" value="amarillo">
+     <label for="amarillo"> Amarillo</label>
+
+     
+     <input type="checkbox" name="sauco">
+     <label for="sauco"> Sauco</label>
+
+     <input type="checkbox" name="draco">
+     <label for="draco"> Draco</label>
+
+     <input type="checkbox" name="hermione">
+     <label for="hermione"> Hermione</label>
+
+     
+
+
+
+
+     <input type="submit" class="submit-enviar">
+        </fieldset>
+        </form>
+    </section>
+</body>
+</html>
